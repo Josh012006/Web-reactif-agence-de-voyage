@@ -1,0 +1,32 @@
+.a:link
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.a:hover
+{
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+}
+
+.a:visited
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and  (min-width:992px)
+{
+    
+    #navig
+    {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 25% 75%;
+    }
+
+}
+
